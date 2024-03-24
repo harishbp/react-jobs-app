@@ -22,7 +22,7 @@ const Joglisting = ({ id, title, type, description, salary, location, company })
             <div className='border border-gray-200'></div>
             <div className='flex flex-col md:flex-row justify-between items-center mt-4 gap-2'>
                 <h1 className='text-orange-500 text-left w-full md:w-auto'><FaMapMarkerAlt className='inline mb-1' />{location}</h1>
-                <Link to={`/jobs/${id}`} className='bg-indigo-400 text-white shadow-md p-2 rounded-md w-full md:w-auto'>Read More</Link>
+                <Link to={`/jobs/${id}`} className='bg-indigo-400 text-white shadow-md p-2 rounded-md w-full md:w-auto text-center'>Read More</Link>
             </div>
 
         </div>
